@@ -1,0 +1,50 @@
+<!-- table and styling-->
+<!DOCTYPE html> <!-- Boiler plate-->
+<html>
+    <head>
+        <title>Tables</title>
+        <style>
+            table, th, td {
+                border: 2px solid black;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+            th, td {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <table style="width:100%">
+    
+        
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+                <th colspan="2">Phone Number</th>
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+                <td>123-123-1234</td>
+                <td>123-222-4444</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Wick</td>
+                <td rowspan="2" >35</td>
+                <td>647-777-0000</td>
+            </tr>
+            <tr>
+                <td>Salman</td>
+                <td>Khan</td>
+                <td>933-789-8000</td>
+                <td>999-999-9999</td>
+            </tr>
+        </table>
+    </body>
+</html>
